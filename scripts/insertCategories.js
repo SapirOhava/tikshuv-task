@@ -17,6 +17,7 @@ const insertCategories = async () => {
     { name: 'Cleaning products' },
     { name: 'Pastries' },
     { name: 'Meat and fish' },
+    { name: 'cheeses' },
   ];
 
   try {
