@@ -8,7 +8,7 @@ This is the backend server for a shopping list application, built with Node.js a
 
 - REST API for managing shopping list items
 - Integration with MongoDB Atlas for data persistence
-- CRUD operations for list items
+- create, read and update operations for category and products for shopping list
 
 ## Technologies
 
@@ -22,10 +22,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-- Node.js
-  ```sh
-  npm install npm@latest -g
-  ```
+```sh
+npm install npm@latest -g
+```
 
 ### Installation
 
@@ -68,4 +67,4 @@ To start the server, run:
 npm run start
 ```
 
-The server will start on http://localhost:5000.
+The server will start on http://localhost:5000/api ( see the routes for categories and products in the routes directory)
